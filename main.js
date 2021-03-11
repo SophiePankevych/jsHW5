@@ -418,3 +418,34 @@
 // }
 // let prince = new Prince('King', 25, 40);
 // prince.findCinderella();
+
+//Реализуйте класс Student (Студент), который будет наследовать от класса User .
+// Этот класс должен иметь следующие свойства: name (имя, наследуется от User), surname (фамилия, наследуется от User),
+// year (год поступления в вуз). Класс должен иметь метод getFullName() (наследуется от User),
+// с помощью которого можно вывести одновременно имя и фамилию студента. Также класс должен иметь метод, который
+// будет изменять имя и фамилию студента.
+// class User {
+//     constructor(name, surname) {
+//         this.name = name;
+//         this.surname = surname;
+//     }
+//     getFullName () {
+//         console.log(`Hey, my name - ${this.name}, surname - ${this.surname}`)
+//     }
+// }
+// class Student extends User{
+//     constructor(name, surname, year) {
+//         super(name, surname);
+//         this.year = year;
+//     }
+//     changeInfo (newName, newSurname) {
+//         console.log(`My info has changed - ${newName} ${newSurname}`);
+//     }
+// }
+// let user = new User('Sasha', 'Boom');
+// user.getFullName();
+// let student = new Student('Sophie', 'Boom', 2018);
+// student.getFullName();
+// student.changeInfo('Sophie', 'Pankevych');
+// console.log(user);
+// console.log(student);
